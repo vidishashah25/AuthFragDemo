@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "231851563373",
+    "firebase_url": "https://authfire-a8695.firebaseio.com",
+    "project_id": "authfire-a8695",
+    "storage_bucket": "authfire-a8695.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:231851563373:android:a86d472ff8718293",
+        "android_client_info": {
+          "package_name": "com.example.admin.authfrag"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "231851563373-u2mqvb12nfkt2f57u4243bf4ff4bbml5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin.authfrag",
+            "certificate_hash": "6e61a6be5b56fbfc6f35704b55a512414ff0b7ac"
+          }
+        },
+        {
+          "client_id": "231851563373-jsn1ot65ff2rqg1v8jh81oa0p4mv7lb6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSDmle8TNQF_pS10vrsCi0UJY7K4ZT-wM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "231851563373-jsn1ot65ff2rqg1v8jh81oa0p4mv7lb6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

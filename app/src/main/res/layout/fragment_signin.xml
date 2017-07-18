@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_margin="16dp"
+    >
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email"
+        android:padding="8dp"
+        android:textSize="22sp"
+        android:layout_margin="8dp"
+        android:background="#FFFFFF"
+         />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvValid"
+            android:textColor="#FFFFFF"
+            />
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:padding="8dp"
+        android:textSize="22sp"
+        android:layout_margin="8dp"
+        android:inputType="textPassword"
+        android:background="#FFFFFF" />
+
+    <Button
+        android:id="@+id/bSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:textColor="#FFFFFF"
+        android:padding="8dp"
+        android:textSize="22sp"
+        android:layout_margin="8dp"
+        android:background="@color/colorPrimaryDark"
+        />
+
+    <Button
+        android:id="@+id/bSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up Here"
+        android:textColor="#FFFFFF"
+        android:padding="8dp"
+        android:textSize="22sp"
+        android:layout_margin="8dp"
+        android:background="@color/colorPrimaryDark"
+        />
+    </LinearLayout>
+
+
+</LinearLayout>
